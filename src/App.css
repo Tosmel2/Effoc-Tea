@@ -1,0 +1,565 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.gbackground{
+  background-color: #f5eeee;
+}
+
+
+/* =============About CSS ========== */
+.about{
+  height:50vh;
+}
+
+/* ==============Blog CSS============= */
+
+.blog{
+  padding: 3rem 0;
+  /* height:80vh; */
+}
+
+.blog-button{
+  border: 1px solid #2E1D03;
+  color: #2E1D03;
+  border-radius: 10px;
+  padding: 8px 40px;
+}
+
+.about-button{
+  color: #FFFFFF;
+  background: #2E1D03;
+  border-radius: 10px;
+  padding: 8px 40px;
+  /* padding: 12px 50px; */
+}
+
+
+/* ==============Footer CSS============= */
+.footer{
+  background-image: url('./assets/bg.png');
+}
+
+
+/* ======PRODUCT======== */
+.products{
+  background-image: url('./assets/bg.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+}
+
+.sub-product{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  width: 92%;
+  height: 80%;
+}
+.very-best{
+  background-color: white;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: top;
+  /* align-items: center; */
+}
+.very-best div{
+  background-color: white;
+  width: 80%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.very-best div h2{
+  margin-bottom: 2rem;
+}
+.very-best div button{
+  padding: 8px;
+  margin-top: 2rem;
+  width: 60%;
+  color: white;
+  font-size: 15px;
+  background: #2E1D03;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-lists{
+  background-color: white;
+  /* border: solid green 2px; */
+  width: 65%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border-radius: 25px; */
+}
+.product-text{
+  width: 40%;
+  padding: 1em 3rem;
+}
+.product-box{
+  background-color: white;
+  /* border: blue solid 2px; */
+  width: 28%;
+  box-shadow: -1px 7px 26px -1px rgba(0,0,0,0.2);
+  height: 90%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.price{
+  background: #FAF3DD;
+  border-radius: 30px;
+  padding: 0.5rem;
+  text-align: start;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* text-align: center; */
+  width: 90%;
+  margin-top: 2rem;
+  height: 20%;
+  /* border: 2px solid red; */
+}
+.price h6{
+  font-size: 12px;
+}
+.product-box .price .my-arrow{
+  color: #2E1D03;
+  background-color: white;
+  font-size: 25px;
+}
+
+@media screen and (max-width:800px){
+  /* =====products===== */
+  .products{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .sub-product{
+    background-color: white;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 90%;
+    height: 98%;
+    margin-top: 0.5rem;
+  }
+  .very-best{
+    background-color: white;
+    width: 95%;
+    height: 80%;
+    margin-top: 1rem;
+  }
+  .product-text{
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .very-best div button{
+    width: 95%;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .product-lists{
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-box{
+    background-color: white;
+    width: 95%;
+    box-shadow: -1px 7px 26px -1px rgba(0,0,0,0.2);
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding: 10px;
+  }
+ 
+  .price{
+    margin-top: 1rem;
+    height: 20%;
+  }
+  
+}
+
+
+
+/* ==============NAVBAR========== */
+
+.navbar-sec{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+}
+
+.left-nav{
+  height: 100%;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  
+ 
+}
+.left-nav .black-cof{
+  /* border: 2px solid blue; */
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* margin-left: 2rem; */
+ 
+}
+.left-nav .black-cof p{
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 20px;
+}
+
+.black-cof h1{
+  margin-bottom: 4rem;
+  font-size: 100px;
+  text-shadow: 0px -80px 0px rgba(0, 0, 0, 0.05), 0px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+.left-nav .icon{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+  /* border: 2px solid red; */
+  
+}
+.icon img{
+  height: 55%;
+}
+.icon h1{
+  margin-left: 0.4rem;
+  font-size: 20px;
+}
+.right-nav .top-nav{
+  margin-top: 2.5rem;
+  width: 90%;
+}
+.right-nav .top-nav ul{
+  display: flex;
+  text-align: center;
+  list-style-type: none;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.right-nav .top-nav ul li{
+  padding: 15px;
+  backdrop-filter: blur(15px);
+  margin-left: 10px;
+}
+
+.right-nav{
+  background-image: url('./assets/hero-coffee.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48%;
+  height: 100%;
+
+}
+
+
+@media screen and (max-width: 800px){
+  .navbar-sec{
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column-reverse;
+      
+      
+  }   
+  .left-nav{
+    height: 100%;
+    width: 95%;
+    margin-top: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .left-nav .black-cof{
+    padding: 2rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .left-nav .black-cof p{
+    text-align: center;
+    width: 90%;
+  }
+
+  .black-cof h1{
+    /* text-align: center; */
+    margin-bottom: 3rem;
+    font-size: 55px;
+    text-shadow: 0px -50px 0px rgba(0, 0, 0, 0.05), 0px 50px 0px rgba(0, 0, 0, 0.02);
+  }
+  
+  .left-nav .icon{
+    display: none;
+    margin-bottom: 3rem;
+    
+  }
+  .icon h1{
+    margin-left: 0.4rem;
+  }
+  .top-nav{
+    display: contents;
+    width: 100%;
+  }
+  
+  .right-nav{
+    display: none;
+  
+  }
+  .left-nav button{
+    width: 90%;
+  }
+}
+
+
+/* ========Testimonials======== */
+
+.testimonial{
+  background-image: url('./assets/bg.png');
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.lefty{
+  background-image: url('./assets/coffee-bean1.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  padding: 20px 0;
+  /* z-index: 5; */
+}
+.lefty h2{
+  margin-left: 2rem;
+  position: relative;
+  top: 0%;
+}
+.righty{
+  background-image: url('./assets/coffee-bean2.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: right;
+}
+
+.testy{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 20px 40px;
+  position: relative;
+  right: 10%;
+  top: 3%;
+  /* border: 2px solid green; */
+}
+.mini-testy{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.mini-testy div{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.mini-testy div p{
+  margin-left: 0.5rem;
+}
+
+.testy2{
+  width: 100%;
+  /* height: 30%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 20px 40px;
+  margin-left: 2rem;
+  position: relative;
+  bottom: 20%;
+  /* border: 2px solid blue; */
+}
+
+
+.testy3{
+  /* border: 2px solid red; */
+  width: 90%;
+  /* height: 26%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 20px 40px;
+  position: relative;
+  right: 24%;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 800px){
+  /* ===========testy==== */
+  .testimonial{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+  }
+  .lefty{
+    
+    /* border: 2px solid red; */
+    width: 95%;
+    height: 100%;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+  }
+  .lefty h1{
+    margin-top: 1rem;
+    text-align: center;
+   
+  }
+  .righty{
+  
+    /* border: 2px solid blue; */
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .testimonial h2{
+    font-size: 30px;
+  
+  }
+  .righty .testy{
+    /* border: 2px solid blue; */
+    width: 98%;
+    height: 100%;
+    position: relative;
+    right: 0%;
+    top: 0%;
+    margin-top: 1rem;
+ 
+  }
+  .mini-testy{
+    
+    width: 100%;
+  
+  }
+  .mini-testy div{
+    
+    width: 100%;
+    
+  }
+  .testy div p{
+    /* border: 2px solid red; */
+    text-align: justify;
+    line-height: 25px;
+    
+  }
+  .testy2 div p{
+    /* border: 2px solid red; */
+    text-align: justify;
+    line-height: 25px;
+      
+  }
+  .testy3 div p{
+    /* border: 2px solid red; */
+    text-align: justify;
+    line-height: 25px;
+    
+  }
+  
+  .testy2{
+    /* border: 2px solid rgb(231, 22, 109); */
+    width: 98%;
+    height: 100%;
+    margin-left: 0;
+    margin-top: 1rem;
+    
+  }
+  
+  
+  .testy3{
+    /* border: 2px solid rgb(37, 206, 46); */
+    width: 98%;
+    height: 100%;
+    margin-top: 1rem;
+  
+    position: relative;
+    right: 0%;
+  }
+
+}
